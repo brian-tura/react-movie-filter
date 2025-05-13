@@ -25,6 +25,10 @@ function App() {
     }
   }, [genre])
 
+  setFilmOptions(() => {
+    
+  })
+
   return (
     <main>
       <select value={genre} onChange={(e) => setGenre(e.target.value)}>
